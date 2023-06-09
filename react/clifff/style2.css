@@ -1,0 +1,162 @@
+/* *{
+  margin: 15px;
+  box-sizing: border-box;
+  font-family: "CustomFont";
+}
+
+.left, .right {
+  float: left;
+  width: 20%; /* The width is 20%, by default */
+}
+
+.main {
+  float: left;
+  width: 60%; /* The width is 60%, by default */
+}
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+img {
+    width: 250px;
+    float: left;
+    padding-left: 5%;
+    padding-right: 2%;
+   
+  }
+/* footer css */
+  footer {
+    /* background-color: #333; */
+    color: black;
+    padding: 20px;
+    text-align: center;
+    margin-right: 20px ;
+  }
+  
+ 
+
+  .footer-item {
+  
+      text-align: center;
+      font-size: 20px;
+    }
+    .footer-item span {
+      display: inline;
+    }
+    .footer-item span:first-child {
+      margin-right: 50px;
+    }
+    .footer-item span:last-child {
+      margin-left: 50px;
+    }
+
+    @media (max-width: 767px) {
+      .footer-item {
+        display: flex;
+        flex-direction: column;
+      }
+      .footer-item span {
+        margin: 10px 0;
+      }
+    }
+/* text css */
+  h1 {
+    margin: 0 auto;
+    
+  }
+  .Top{
+    font-size: 35px;
+    color: red;
+    margin-left: 30%;
+    
+  }
+  
+  .head{
+    color: red;
+  }
+
+  .karyalaya{
+    margin-left: 40%;
+    color: red;
+    font-size: 35px;
+    margin-top: -15px;
+  }
+
+  
+
+  .pasa{
+    color:red;
+    font-size:22px ;
+    margin-left: 80px;
+  }
+  .pasa span:first-child {
+    margin-right: 100px;
+  }
+  .pasa span:last-child {
+    margin-left: 380px;
+  }
+
+
+  .chana{
+    color:red;
+    font-size:22px ;
+    margin-left: 80px;
+  }
+  .chana span:first-child {
+    margin-right: 100px;
+  }
+  .chana span:last-child {
+    margin-left: 400px;
+  }
+  
+  h2{
+    margin: 0 auto;
+  }
+  h4 {
+    
+        float: right;
+        margin-right:50px;
+  }
+  
+  .title {
+    text-align: center;
+  }
+
+  .too{
+    text-indent: 50px;
+    
+  }
+
+  .mid{
+    text-indent: 150px;
+    margin: 15px;
+    font-size: 22px;
+  }
+  
+  
+  .signature{
+    float:right;
+    margin-right:50px;
+  }
+  /* .name{
+    float:right;
+    margin-left: 70%;
+  } */
+
+  h1{
+    margin-right: 100px;
+  }
+/* line css */
+  .hr1{
+    border-top-width: 4px;
+      border-color: #00cc00;
+      border-style: solid;
+  }
+
+  .hr2{
+    border-top-width: 4px;
+      border-color: red;
+      border-style: solid;
+  } */
